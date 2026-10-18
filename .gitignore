@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets and model checkpoints
+data/
+runs/
+*.pt
+*.pth
+*.onnx
+
+# Outputs and logs (keep directory tracked)
+results/*
+!results/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
